@@ -1,6 +1,6 @@
 # Sky Rogue - Cruise Chaser Aero Mod
 A mod for the game Sky Rogue.
-This mod makes FFXIV's Cruise Chaser boss available as a playable character, and can be found [here!]()
+This mod makes FFXIV's Cruise Chaser boss available as a playable character, and can be found [here!](https://steamcommunity.com/sharedfiles/filedetails/?id=2188462655)
 
 
 This repository does not contain the model, since that might be on dicey copyright grounds.
