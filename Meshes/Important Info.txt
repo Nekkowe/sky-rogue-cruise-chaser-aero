@@ -1,0 +1,8 @@
+This is where the two files "CruiseChaser.mtl" and "CruiseChaser.obj" would go.
+
+These two files define the actual 3D appearance of the Aero.
+
+For the actual mod, I extracted Cruise Chaser's model from FF14 and then worked on it in Blender to make it suitable for Sky Rogue. 
+
+I apologize for any inconvenience, but I have to restrict this repository purely to content I made from the ground up.
+Because the mod derives from a copyright-protected model, I'm playing it safe and not uploading the model on GitHub.
