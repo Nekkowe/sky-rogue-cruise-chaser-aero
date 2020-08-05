@@ -1,0 +1,583 @@
+{
+  "shortName": "ARK-A11",
+  "fullName": "Cruise Chaser",
+  "description": "Transcendental. Exponential.",
+  "skinName": "skin_CruiseChaser",
+  "templateName": "aeroplane_rogue",
+	"components" : {
+		"Airfoil" : {
+			"fields" : {
+				"maxThrust" : "8000.0",
+				"throttleChangeSpeed" : "0.4",
+				"ceiling" : "3000.0",
+				"yprSpeed" : "60,10,160",
+				"throttleYprScalar" : 0.5
+			}
+		},
+		"Destroyable" : {
+			"fields" : {
+				"hitPoints" : "110"
+			}
+		},
+		"LoadoutChassis" : {
+			"fields" : {
+				"basePayload" : "180",
+				"baseAvionics" : "180"
+			}
+		}
+	},
+  "transforms": {
+    "0": {
+      "id": 0,
+      "parentID": -1,
+      "name": "Name this section whatever you name the file itself when you're done editing. Otherwise, don't touch anything.",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "1": {
+      "id": 1,
+      "parentID": 0,
+      "name": "graphics",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "2": {
+      "id": 1,
+      "parentID": 0,
+      "name": "cockpit",
+      "position": [
+        0,
+        -0.12179,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "5": {
+      "id": 5,
+      "parentID": 1,
+      "name": "mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": "CruiseChaser",
+      "materialName": "palette_team_1"
+    },
+    "10": {
+      "id": 10,
+      "parentID": 0,
+      "name": "primary",
+      "position": [
+        0,
+        -0.7,
+        3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "11": {
+      "id": 11,
+      "parentID": 10,
+      "name": "mount",
+      "position": [
+        1.61,
+        0.564,
+        2.28
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "12": {
+      "id": 12,
+      "parentID": 10,
+      "name": "mount",
+      "position": [
+        -1.61,
+        0.564,
+        2.28
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "20": {
+      "id": 20,
+      "parentID": 0,
+      "name": "secondary",
+      "position": [
+        0,
+        -0.5,
+        0.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "21": {
+      "id": 21,
+      "parentID": 20,
+      "name": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "30": {
+      "id": 30,
+      "parentID": 0,
+      "name": "weapongroup_3",
+      "position": [
+        0,
+        -0.5,
+        0.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "31": {
+      "id": 31,
+      "parentID": 30,
+      "name": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "40": {
+      "id": 40,
+      "parentID": 0,
+      "name": "weapongroup_4",
+      "position": [
+        0,
+        -0.5,
+        0.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "41": {
+      "id": 41,
+      "parentID": 40,
+      "name": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "50": {
+      "id": 50,
+      "parentID": 0,
+      "name": "gun",
+      "position": [
+        -0.243,
+        1.18,
+        5.13
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "70": {
+      "id": 70,
+      "parentID": 0,
+      "name": "special",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+	  "71": {
+      "id": 71,
+      "parentID": 70,
+      "name": "weapon_gun",
+      "position": [
+        0.243,
+        1.184,
+        1.6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+      },
+    "80": {
+      "id": 22,
+      "parentID": 0,
+      "name": "engineAudio",
+      "position": [
+        0,
+        -0.5,
+        0.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "90": {
+      "id": 90,
+      "parentID": 1,
+      "name": "contrail",
+      "position": [
+        2.9,
+        0.9,
+        -4.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_wingtip",
+      "meshName": null,
+      "materialName": null
+    },
+    "91": {
+      "id": 91,
+      "parentID": 1,
+      "name": "contrail",
+      "position": [
+        -2.9,
+        0.9,
+        -4.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_wingtip",
+      "meshName": null,
+      "materialName": null
+    },
+    "92": {
+      "id": 92,
+      "parentID": 1,
+      "name": "contrail",
+      "position": [
+        5.12,
+        0,
+        -6.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_wingtip",
+      "meshName": null,
+      "materialName": null
+    },
+    "93": {
+      "id": 93,
+      "parentID": 1,
+      "name": "contrail",
+      "position": [
+        -5.12,
+        0,
+        -6.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_wingtip",
+      "meshName": null,
+      "materialName": null
+    },
+    "94": {
+      "id": 94,
+      "parentID": 1,
+      "name": "afterburner",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        10,
+        10,
+        10
+      ],
+      "prefabName": null,
+      "meshName": null,
+      "materialName": null
+    },
+    "95": {
+      "id": 95,
+      "parentID": 94,
+      "name": "contrail_thrust",
+      "position": [
+        -0.161,
+        0.057,
+        0.115
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_thrust",
+      "meshName": null,
+      "materialName": null
+    },
+    "96": {
+      "id": 96,
+      "parentID": 94,
+      "name": "contrail_thrust",
+      "position": [
+        0.161,
+        0.057,
+        0.115
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "prefabName": "Contrail_thrust",
+      "meshName": null,
+      "materialName": null
+    }
+  }
+}
